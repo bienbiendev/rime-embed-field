@@ -12,5 +12,3 @@ export const Pages = Collection.create('pages', {
 	fields: [embed('video')]
 });
 ```
-
-

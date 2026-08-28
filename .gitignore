@@ -36,13 +36,5 @@ logs
 # package-specific
 static
 src/routes/(rime)
-assets/src
-static/medias
-test-results
 pnpm-*.yaml
-.auto
 src/params
-src/lib/site
-/.zed
-rime.code-workspace
-.vscode
