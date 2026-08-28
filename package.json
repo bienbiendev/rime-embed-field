@@ -1,6 +1,6 @@
 {
 	"name": "@rimecms/embed-field",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"publishConfig": {
 		"access": "public"
 	},
@@ -36,6 +36,8 @@
 		"svelte": "^5.0.0"
 	},
 	"devDependencies": {
+		"@changesets/changelog-github": "^1.0.0",
+		"@changesets/cli": "^3.0.1",
 		"@eslint/js": "^10.0.1",
 		"@sveltejs/adapter-auto": "^7.0.1",
 		"@sveltejs/adapter-node": "^5.5.7",
