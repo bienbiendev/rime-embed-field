@@ -1,0 +1,48 @@
+node_modules
+dist
+build
+.svelte-kit
+.DS_Store
+Thumbs.db
+*.log
+pnpm-debug.log*
+*.code-workspace
+
+# Deploy targets
+.output
+.vercel
+.netlify
+.wrangler
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# rime dev/codegen artifacts
+.rime
+.cache
+db
+logs
++rime.generated
+*.generated.d.ts
+*.tgz
+
+# package-specific
+static
+src/routes/(rime)
+assets/src
+static/medias
+test-results
+pnpm-*.yaml
+.auto
+src/params
+src/lib/site
+/.zed
+rime.code-workspace
+.vscode
