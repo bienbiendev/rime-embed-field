@@ -25,10 +25,8 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
 # rime dev/codegen artifacts
-.rime
-.cache
-db
-logs
+/db
+/logs
 +rime.generated
 *.generated.d.ts
 *.tgz

@@ -2,7 +2,7 @@
 import { defineConfig, type Config } from 'drizzle-kit';
 
 export const config: Config = {
-  schema: './src/lib/+rime.generated/schema.server.ts',
+  schema: './src/+rime.generated/schema.server.ts',
   out: './db',
   strict: false,
   dialect: 'sqlite',
